@@ -1,0 +1,55 @@
+.base {
+    margin: auto;
+}
+
+.cabecera {
+    background-color: #fff2ff;
+    display: flex;
+    width: 100%;
+}
+
+.cabecera h1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+figure {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.ladoizquierdo {
+    width: 160px;
+    height: 689.8px;
+    background-color: #D3D3D3;
+    margin-right: 20px;
+}
+
+.ladoizquierdo p {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 450px;
+}
+
+.menuaside {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.menuaside li {
+    list-style-type: none;
+    margin-bottom: 35px;
+    color: #8000b2;
+    font-weight: bold;
+}
+
+.cursor{
+    cursor: pointer;
+}

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ef5701a5-961f-435c-a779-fcefc04af491/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/angeloguillen-prograweb-web",
+    "appService.deploySubpath": "."
+}
