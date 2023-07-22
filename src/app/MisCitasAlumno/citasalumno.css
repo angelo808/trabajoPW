@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f4ecf4;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  aside {
+    background-color: #f2f2f2;
+    float: left;
+    width: 200px;
+    padding: 20px;
+    min-height: 100vh; 
+    box-sizing: border-box; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-bottom: 20%;
+    margin-left: 20%;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #6757a5;
+  }
+  
+  main {
+    margin-left: 220px;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    flex-grow: 1;
+    color: black;
+    text-align: center;
+    font-family: 'Calibri';
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .citas-pasadas-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cita {
+    width: 25%;
+    height: 10.5cm;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    padding: 10px;
+    float: left;
+  }
+  
+  .cita-details h3 {
+    margin: 0;
+  }
+  
+  .cita-fecha {
+    font-size: 110%;
+  }
+  
+  .cita-curso {
+    font-size: 90%;
+  }
+  
+  .enlace-clase {
+    color: black;
+  }
+  
+  .foto-docente {
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cancelar-cita {
+    color: #6757a5;
+    background-color: #f4ecf4;
+    border-radius: 2em;
+    border: 0.5;
+    border-color: #6757a5;
+    padding: 10px;
+    float: right;
+    cursor: pointer;
+    margin-top: 1cm;
+  }
+  
+  .icon-header {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  #icon-user {
+    float: right;
+  }
+  
+  .programar-cita {
+    color: white;
+    background-color: mediumseagreen;
+    border-radius: 2em;
+    border: 0;
+    float: right;
+    outline-offset: 3px;
+    padding: 11px;
+  }
+  
+  .citas-pasadas {
+    color: #6757a5;
+    background-color: mediumseagreen;
+    border-radius: 2em;
+    border-color: #6757a5;
+    padding: 11px;
+    border: 0.5;
+    float: right;
+  }
+  
+  .iniciales {
+    color: white;
+    border-radius: 2em;
+    border: 0;
+    padding: 14px;
+    outline-offset: 3px;
+    background-color: mediumseagreen;
+    float: left;
+  }
+  
+  .paginas {
+    font-weight: bold;
+    float: right;
+    margin-top: 15cm;
+  }
